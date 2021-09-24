@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'reset.css' %}">
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <link rel="stylesheet" href="{% static 'font.css' %}">
+    <title>한글 폰트 지도</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;500;800&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">  -->
+    <!-- bootstrap css인데 적용 시 다른 css가 깨짐 -->
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <section id="control_pt" class="font_family_wrap">
+            <div class="font_control_wrap">
+                <div class="control_box2">
+                    <div class="font-detail content row">
+                        <div class="main-font">
+                            <div class="font-title">SM3신신명조 03</div> 
+                            <div class="font-title">신명조 03</div>
+                            <div class="font-google-link hidden-xs"><a class="google-link" href="#"
+                                    target="_blank">직지소프트</a></div>
+                        </div>
+
+                        <nav class="navbar navbar-light bg-light">
+                            <div class="container-fluid">
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </nav>
+
+                        <div class="neighboring-fonts expanded">
+                            <div class="section__label">+</div>
+                            <div class="neighboring-font-list">
+                                <div class="neighboring-font">
+                                    <div class="font-20 neighboring-font__name">{{ similar_list.0 }}</div>
+                                    <div class="font-19 neighboring-font__name">{{ similar_list.1 }}</div>
+                                    <div class="font-12 neighboring-font__name">{{ similar_list.2 }}</div>
+                                    <div class="font-14 neighboring-font__name">{{ similar_list.3 }}</div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control_box1">
+                    <div class="input_box2 short2 col-3">
+                        <input type="text" maxlength='0' class="input_text_value effect-1" placeholder="가"
+                            data-gubun="0">
+                        <span class="focus-border"></span>
+                    </div>
+                </div>
+            </div>
+            <ul class="shadow_wrap clear">
+                <li class="writing_y_li font-20">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-20">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-19">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-19">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-12">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-12">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-14">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="writing_y_li font-14">
+                    <div class="family_box2 clear ">
+                        <a href="#">
+                            <p class="wrt_y_fmy wrt_mode_y ctr ch_text1_0">가</p>
+                            <p class="smp_y_fmy wrt_mode_y ctr ch_text2_0"></p>
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+
+        <footer>
+            <div class="bottom">
+                <p>
+                    한글 폰트 지도 프로토타입
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            $(".input_text_value").keyup(function () {
+
+                var gubun = $(this).data("gubun");
+                var text = $(this).val();
+                var size = $(".r_" + gubun).val();
+
+                // 텍스트 체인지
+                var $li_y = $('.ch_text2_' + gubun);
+                var $li_y_width = $li_y.outerWidth();
+
+                var $div_y = $li_y.parent('.family_box2');
+                var $div_y_width = $div_y.outerWidth();
+
+
+
+                if (text != "") {
+                    $(".ch_text1_" + gubun).hide();
+                    $(".ch_text2_" + gubun).show();
+                    $(".ch_text2_" + gubun).text(text);
+                    $(".ch_text2_" + gubun).css('font-size', size + 'pt');
+
+                } else {
+                    $(".ch_text1_" + gubun).show();
+                    $(".ch_text2_" + gubun).hide();
+                    $(".ch_text2_" + gubun).text('');
+                }
+
+
+                if ($li_y_width <= 200) {
+                    $li_y_width == "";
+                } else {
+                    $div_y.css({
+                        'width': $li_y_width + "px"
+                    });
+                }
+
+                console.log(text);
+
+
+
+                $(".ch_text2_" + gubun).each(function () {
+
+                    $(this).html(replaceQuote(text));
+
+                });
+
+
+                function checkBox() {
+                    var checkUp = true;
+                    var st = '\'';
+                    if (checkUp == true) {
+                        var checkUp = false;
+                        return checkup;
+                    }
+
+                }
+
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
