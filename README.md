@@ -39,8 +39,16 @@
 크게 다음의 두 가지를 핵심 기능으로 들 수 있습니다.
 
 * 유사 폰트 탐색 : 백엔드 작업
+  pandas library를 활용해 간단한 탐색 알고리즘을 구현하였습니다. count를 매기는 column을 하나 만들어서, 모든 폰트를 순회하면서 counting 해주는 방식으로 작성하였습니다.
+  
+  코드 링크 : https://github.com/Woonggss/Hangeul_Font_Map_for_portfolio/blob/main/Hackathon_Server/projectsite/main/similar_font.py
+  코드 링크 (Jupyter Notebook) : https://github.com/Woonggss/Hangeul_Font_Map_Project/blob/main/%EC%9C%A0%EC%82%AC%20%ED%8F%B0%ED%8A%B8%20%EB%BD%91%EA%B8%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Ranking_top5).ipynb
+  
 * 유사 폰트 적용 : 프론트엔드 작업
-
+  jQuery를 활용해서 유사 폰트에 해당하는 폰트를 적용해볼 수 있게끔 하였습니다.
+  코드 링크 : https://github.com/Woonggss/Hangeul_Font_Map_for_portfolio/blob/main/Hackathon_Server/projectsite/main/templates/main/index.html
+   
+  
 ## 6) Trouble Shooting
 
 
