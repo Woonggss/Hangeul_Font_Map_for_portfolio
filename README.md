@@ -45,8 +45,8 @@ IDEO Font Map(http://fontmap.ideo.com/) 에 착안하여 구상한 아이디어�
   pandas library를 활용해 간단한 탐색 알고리즘을 구현하였습니다. count를 매기는 column을 하나 만들어서, 모든 폰트를 순회하면서 counting 해주는 방식으로 작성하였습니다.
   자세한 설명은 코드 주석에 달아두었습니다. (Jupyter Notebook 버전이 보기 편합니다.)
   
-  코드 링크 : https://github.com/Woonggss/Hangeul_Font_Map_for_portfolio/blob/main/Hackathon_Server/projectsite/main/similar_font.py
-  코드 링크 (Jupyter Notebook) : https://github.com/Woonggss/Hangeul_Font_Map_Project/blob/main/%EC%9C%A0%EC%82%AC%20%ED%8F%B0%ED%8A%B8%20%EB%BD%91%EA%B8%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Ranking_top5).ipynb
+  * 코드 링크 : https://github.com/Woonggss/Hangeul_Font_Map_for_portfolio/blob/main/Hackathon_Server/projectsite/main/similar_font.py
+  * 코드 링크 (Jupyter Notebook) : https://github.com/Woonggss/Hangeul_Font_Map_Project/blob/main/%EC%9C%A0%EC%82%AC%20%ED%8F%B0%ED%8A%B8%20%EB%BD%91%EA%B8%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Ranking_top5).ipynb
   
   
 ### 5.2. 유사 폰트 적용 : 프론트엔드 작업
@@ -96,5 +96,5 @@ IDEO Font Map(http://fontmap.ideo.com/) 에 착안하여 구상한 아이디어�
 
 ## 7. 회고 및 느낀 점
 
-짧은 시간에 최소한의 내용을 베이스로 개발 프로세스 전체를 경험하다보니, 아쉬움이 남는 프로젝트였습니다. 그래도 짧은 기간에 웹 개발의 전반적인 과정을 경험해 볼 수 있었습니다. 다양한 분들과 협업할 수 있었다는 사실은 그 자체로 값진 경험이었습니다. 특히 디자이너 분과 이런저런 이야기를 나눌 기회가 있었는데, 디자인에 문외한인 저로써는 정말 흥미로웠습니다. 개발 공부를 체계적으로 시작할 수 있게 된 계기였던 것 같습니다. 
+짧은 시간에 최소한의 내용을 베이스로 개발 프로세스 전체를 경험하다보니, 아쉬움이 남는 프로젝트였습니다. 그래도 짧은 기간에 웹 개발의 전반적인 과정을 경험해 볼 수 있었습니다. 다양한 분들과 협업할 수 있었다는 사실은 그 자체로 값진 경험이었습니다. 특히 디자이너 분과 이야기를 나눌 기회가 있었는데, 디자인에 문외한인 저로써는 정말 흥미로웠습니다. 개발 공부를 체계적으로 시작할 수 있게 된 계기였던 것 같습니다. 
 
