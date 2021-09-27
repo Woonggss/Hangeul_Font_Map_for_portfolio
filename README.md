@@ -52,7 +52,7 @@ IDEO Font Map(http://fontmap.ideo.com/) 에 착안하여 구상한 아이디어�
 ### 5.2. 유사 폰트 적용 : 프론트엔드 작업
   
   jQuery를 활용해서 유사 폰트에 해당하는 폰트를 적용해볼 수 있게끔 하였습니다.
-  코드 링크 : https://github.com/Woonggss/Hangeul_Font_Map_for_portfolio/blob/main/Hackathon_Server/projectsite/main/templates/main/index.html
+  * [코드 링크](https://github.com/Woonggss/Hangeul_Font_Map_for_portfolio/blob/main/Hackathon_Server/projectsite/main/templates/main/index.html)
    
   
 ## 6. Trouble Shooting
