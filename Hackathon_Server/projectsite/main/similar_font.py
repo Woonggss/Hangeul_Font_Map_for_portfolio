@@ -84,8 +84,6 @@ df_new = df_cleansing_2
 # In[88]:
 
 
-# 함수로만 코드를 작성하였습니다. 아직 클래스 사용이 미숙해서.. 이 부분은 차후 여유가 된다면 정리해보겠습니다.
-
 def return_similar_fonts(df, fontname):
     
     count_column = make_count_column(df, fontname) # 1) 2)를 한 번에 묶어서 만든 함수
